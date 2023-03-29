@@ -14,7 +14,7 @@
 - Usar librería de iconos de bootstrap para los iconos
 
 ### ● Google Font
-- Family: [Nunito](https://fonts.google.com/specimen/Nunito?query=nunito)
+- Family: [**Nunito**](https://fonts.google.com/specimen/Nunito?query=nunito)
 - Weights: 
     - Light `300`,
     - Light `300`,
@@ -27,5 +27,5 @@
 - Borde de inputs: ```#C4C4C4```
 
 
-> - _Se proveen imágenes dentro de la carpeta [images](/assets/images)_
+> - _Se proveen imágenes dentro de la carpeta [**images**](/assets/images)_
 > - _Debe ser responsive y adaptarse a mobile (utilizando bootstrap)_
