@@ -46,20 +46,25 @@
 
 ## Incluir Bootstrap CSS y JS con enlaces CDN
 
-# En el [`<head>`] introduzca la siguiente etiqueta [`<link>`]
+## <h3 align="left">En el `<head>` introduzca la siguiente etiqueta `<link>`:</h3>
 
 ```
 <!-- Bootstrap CSS -->
+  
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 ```
 
-# Luego dentro del [`<body>`] al final ingresar el siguiente [`<script>`]
+## <h3 align="left">Luego dentro del `<body>` al final ingresar el siguiente `<script>`:</h3>
+
 > _(incluido Popper para colocar menús desplegables, ventanas emergentes e información sobre herramientas)_
 
 ```
 <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 ```
+
+<br>
 
 > - Obtenga más información sobre los enlaces [**CDN**](https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start).
 
