@@ -42,16 +42,18 @@
 > _Aplicando `Mobile first`_
 >
 
+<br>
+
 ## Incluir Bootstrap CSS y JS con enlaces CDN
 
-# En el <head> introduzca la siguiente etiqueta <link>
+# En el [`<head>`] introduzca la siguiente etiqueta [`<link>`]
 
 ```
 <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 ```
 
-# Luego dentro del <body> al final ingresar el siguiente <script>
+# Luego dentro del [`<body>`] al final ingresar el siguiente [`<script>`]
 > _(incluido Popper para colocar menús desplegables, ventanas emergentes e información sobre herramientas)_
 
 ```
