@@ -11,7 +11,7 @@
 
 ## Descripción
 
-# <h3 align="left">Languages and Tools:</h3>
+### ● <h3 align="left">Languages and Tools:</h3>
 
 <table align="center">
   <tr>
@@ -31,7 +31,7 @@
 </table>
 
 
-# <h3 align="left">Página del proyecto:</h3>
+### ● <h3 align="left">Página del proyecto:</h3>
 
 * [**https://todointerconectado.com/maquetadoLogin**](https://todointerconectado.com/maquetadoLogin)
 
@@ -46,7 +46,7 @@
 
 ## Incluir Bootstrap CSS y JS con enlaces CDN
 
-# <h3 align="left">En el `<head>` introduzca la siguiente etiqueta `<link>`:</h3>
+### ● <h3 align="left">En el `<head>` introduzca la siguiente etiqueta `<link>`:</h3>
 
 ```
 <!-- Bootstrap CSS -->
@@ -54,7 +54,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 ```
 
-# <h3 align="left">Luego dentro del `<body>` al final ingresar el siguiente `<script>`:</h3>
+### ● <h3 align="left">Luego dentro del `<body>` al final ingresar el siguiente `<script>`:</h3>
 
 > _(incluido Popper para colocar menús desplegables, ventanas emergentes e información sobre herramientas)_
 
