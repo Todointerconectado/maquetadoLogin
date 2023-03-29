@@ -6,7 +6,7 @@
 
 >
 > * Te invito a dar tu `⭐` al proyecto!!
-> * _Los estilos estan en el archivo: ![style-guide.md](/style-guide.md)_
+> * _Los estilos estan en el archivo: [style-guide.md](/style-guide.md)_
 >
 
 ## Descripción
@@ -17,15 +17,15 @@
   <tr>
     <td>
       <a href="https://www.w3schools.com/html/" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html" height="30" width="40"></a>
+        <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html" height="40" width="40"></a>
     </td>
     <td>
       <a href="https://getbootstrap.com" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original-wordmark.svg" alt="bootstrap" height="30" width="40" /></a>
+        <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original-wordmark.svg" alt="bootstrap" height="40" width="40" /></a>
     </td>
     <td>
       <a href="https://www.w3schools.com/css" target="_blank">
-        <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css" height="30" width="40" /></a>
+        <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css" height="40" width="40" /></a>
     </td>
   </tr>
 </table>

@@ -21,10 +21,10 @@
     - Bold  `700`
 
 ## ● Colors
-- Título y color del fondo: #22193F
-- Íconos: #6A2A83
-- Enlace y botón: #E21982
-- Borde de inputs: #C4C4C4
+- Título y color del fondo: ```#22193F```
+- Íconos: ```#6A2A83```
+- Enlace y botón: ```#E21982```
+- Borde de inputs: ```#C4C4C4```
 
 
 > - _Se proveen imágenes dentro de la carpeta [images](/assets/images)_
