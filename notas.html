@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetado de Login con Bootstrap</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/icon/favicon.ico" type="image/x-icon" sizes="16x16">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/notas.css">
+
+    <!-- Bootstrap 5.3.0 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body class="body border border-5 border-info v-100 w-100">
+
+    <main class="container border border-5 border-danger">
+        <div class="row row-cols-12 fila text-center gap-2">
+            <div class="col columna">1</div>
+            <div class="col columna">2</div>
+            <div class="col columna">3</div>
+            <div class="col columna">4</div>
+            <div class="col columna">5</div>
+            <div class="col columna">6</div>
+            <div class="col columna">7</div>
+            <div class="col columna">8</div>
+            <div class="col columna">9</div>
+            <div class="col columna">10</div>
+            <div class="col columna">11</div>
+            <div class="col columna">12</div>
+        </div>
+
+        <div class="row g-0 fila">
+            <div class="columna col-4">colunma 1</div>
+            <div class="columna col-4">colunma 2</div>
+        </div>
+
+        <div class="row g-0 fila">
+            <div class="columna col-4">colunma 1</div>
+            <div class="columna col-4">colunma 2</div>
+        </div>
+
+        <div class="row fila text-center">
+            <div class="col-2 columna">1</div>
+            <div class="col-2 order-lg-1 columna">2</div>
+            <div class="col-2 columna">3</div>
+        </div>
+
+        <div class="row fila text-center">
+            <div class="col-6 columna">
+                columna 1
+                <div class="row fila">
+                    <div class="col columna">
+                        columna anidada 1
+                        <div class="row fila">
+                            <div class="col columna">1</div>
+                            <div class="col columna">2</div>
+                            <div class="col columna">3</div>
+                            <div class="col columna">4</div>
+                            <div class="col columna">5</div>
+                            <div class="col columna">6</div>
+                            <div class="col columna">7</div>
+                            <div class="col columna">8</div>
+                            <div class="col columna">9</div>
+                            <div class="col columna">10</div>
+                            <div class="col columna">11</div>
+                            <div class="col columna">12</div>
+                        </div>
+                    </div>
+                    <div class="col columna">columna anidada 2</div>
+                </div>
+            </div>
+
+            <div class="col-6 columna">
+                columna 2
+                <div class="row">
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-12 fila text-center">
+            <article class="cols-12 columna">
+                <h3>Colores accesibles Background</h3>
+                <div class="row fila border-danger">
+                    <div class="col border-info bg-primary text-danger columna">primary</div>
+                    <div class="col bg-secondary columna">secondary</div>
+                    <div class="col bg-success columna">success</div>
+                    <div class="col bg-danger text-primary columna">danger</div>
+                    <div class="col bg-warning columna">warning</div>
+                    <div class="col bg-info columna">info</div>
+                    <div class="col bg-light columna">light</div>
+                    <div class="col bg-dark columna">dark 80%</div>
+                    <div class="col bg-white columna">white</div>
+                    <div class="col bg-body columna">body</div>
+                </div>
+            </article>
+            
+            <article class="cols-12 columna">
+                <h3>Colores accesibles Background Gradient</h3>
+                <div class="row fila">
+                    <div class="col border-info bg-primary text-danger columna">primary</div>
+                    <div class="col bg-secondary bg-gradient columna">secondary</div>
+                    <div class="col bg-success bg-gradient columna">success</div>
+                    <div class="col bg-danger bg-gradient text-primary columna">danger</div>
+                    <div class="col bg-warning bg-gradient columna">warning</div>
+                    <div class="col bg-info bg-gradient columna">info</div>
+                    <div class="col bg-light bg-gradient columna">light</div>
+                    <div class="col bg-dark bg-gradient columna">dark 80%</div>
+                    <div class="col bg-white bg-gradient columna">white</div>
+                    <div class="col bg-body bg-gradient columna">body</div>
+                </div>
+            </article>
+
+            <article class="cols-12 columna">
+                <h3>Colores accesibles Background opacity</h3>
+                <div class="row fila border-danger">
+                    <div class="col-12 bg-primary bg-opacity-100">opacity: 100%</div>
+                    <div class="col-12 bg-primary bg-opacity-75">opacity: 75%</div>
+                    <div class="col-12 bg-primary bg-opacity-50">opacity: 50%</div>
+                    <div class="col-12 bg-primary bg-opacity-25">opacity: 25%</div>
+                    <div class="col-12 bg-primary bg-opacity-10">opacity: 10%</div>
+                </div>
+            </article>
+
+            <article class="col columna">
+                <h3>Colores de ancla link-color {&lt;a&gt;}</h3>
+                <a class=" link-danger" style="font-size: 30px;" 
+                href="#">Soy un ancla &lt;a&gt; </a>
+            </article>
+
+            <article class="col columna">
+                <h3>Colores de opacidad </h3>
+                <p class="text-primary text-opacity-75">opacidad: 75 </p>
+                <p class="text-primary text-opacity-50">opacidad: 50 </p>
+                <p class="text-primary text-opacity-25">opacidad: 25 </p>
+            </article>
+
+            <article class="cols-12 columna">
+                <h3>colores no accesibles Background</h3>
+                <div class="row fila">
+                    <div class="col bg-transparet columna">transparent</div>
+                    <div class="col bg-primary columna">white-50</div>
+                    <div class="col bg-secondary columna">black-50</div>
+                    <div class="col bg-warning columna">muted</div>
+                </div>
+            </article>
+        </div>
+
+        <div class="row fila text-center" style="gap: 10px;">
+            <p class="col border-5      border-primary   caja">1 todos</p>
+            <p class="col border-top    border-secondary caja">2 border-top</p>
+            <p class="col border-end    border-success   caja">3 border-end</p>
+            <p class="col border-bottom border-primary   caja">4 border-bottom</p>
+            <p class="col border-start  border-primary   caja">4 border-start</p>
+        </div>
+
+        <div class="row fila text-center text-white" style="gap: 10px;">
+            <p class="caja col border-5 border-primary rounded">
+                1 rounded</p>
+            <p class="caja col border-5 border-primary rounded-circle">
+                2 rounded-circle</p>
+            <p class="caja col-2 border-5 border-primary rounded-pill">
+                3 rounded-pill</p>
+            <p class="caja col border-5 border-primary rounded-top">
+                4 rounded-top</p>
+            <p class="caja col border-5 border-primary rounded-end">
+                5 rounded-end</p>
+            <p class="caja col border-5 border-primary rounded-bottom">
+                6 rounded-bottom</p>
+            <p class="caja col border-5 border-primary rounded-start">
+                7 rounded-start</p>
+            <p class="caja col border-5 border-primary rounded-1">
+                8 rounded-1</p>
+            <p class="caja col border-5 border-primary rounded-2">
+                9 rounded-2</p>
+            <p class="caja col border-5 border-primary rounded-3">
+                10 rounded-3</p>
+        </div>
+
+        <div class="row-12 fila bg-warning text-white">
+            <div class="float-start bg-success rounded">parráfo 1</div>
+            <div class="float-end   bg-primary rounded">parráfo 2</div>
+        </div>
+
+        <div class="fila">
+            <p class="bg-primary d-inline">paragraph 1</p>
+            <p class="bg-primary d-lg-inline">paragraph 2</p>
+            
+            <span class="bg-success d-block">span 1</span>
+            <span class="bg-warning d-none">span 2</span>
+        </div>
+
+        <div class="fila">
+            <h1>Embed</h1>
+            <div class="text-center embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" 
+                width="844" height="484" 
+                src="https://www.youtube.com/embed/YWgQJxVZjRc" 
+                title="Resolver DESAFÍO FRONTEND MENTOR con HTML5 CSS3 Git/GitHub" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="fila">
+            <h3>Button clasps</h3>
+            <button class="close bg-info text-white rounded p-2" aria-label="close">
+                <span>Close &times;</span>
+            </button>
+        </div>
+
+        <div class="row fila">
+            <div class="col columna">
+                <div class="row">
+                    <div class="col-4 caja bg-primary mb-3 px-5 py-3">
+                        <h6>Caja 1:</h6>
+                        <div class="row">
+                            <div class="col">mb-3</div>
+                            <div class="col">px-5</div>
+                            <div class="col">py-3</div>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-4 caja bg-info ms-n3">
+                        <h6>Caja 1: Negative margin</h6>
+                        <div class="row">
+                            <div class="col">ms-n3</div>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-4 caja bg-success mt-3 ms-5 px-5 py-3">
+                        <h6>Caja 2:</h6>
+                        <div class="row">
+                            <div class="col">ms-5</div>
+                            <div class="col">px-5</div>
+                            <div class="col">py-3</div>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-4 caja bg-danger mt-4">
+                        <h6>Caja 3:</h6>
+                        <div class="row">
+                            <div class="col">mt-4</div>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-4 caja bg-danger mx-auto">
+                        <h6>Caja 4:</h6>
+                        <div class="row">
+                            <div class="col">mx-auto</div>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col my-3 py-2 border border-5 border-info">
+                        <div class="row justify-content-center">
+                            <div class="col-3 bg-warning me-3 card-height overflow-auto">
+                                <p class="text-danger">
+                                    <h5 class="border border-3 border-primary text-center px-2">
+                                        overflow-auto
+                                    </h5>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi necessitatibus earum beatae itaque vero, laudantium magni labore animi qui, accusantium nam natus quos inventore vel deleniti a harum architecto! Suscipit!
+                                </p>
+                            </div>
+                            <div class="col-3 bg-info me-3 card-height overflow-hidden">
+                                <p class="text-white">
+                                    <h5 class="border border-3 border-primary text-center px-2">
+                                        overflow-hidden
+                                    </h5>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi necessitatibus earum beatae itaque vero, laudantium magni labore animi qui, accusantium nam natus quos inventore vel deleniti a harum architecto! Suscipit!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col border border-3 border-primary p-3">
+                        <p class="mb-4 px-2 border border-3 shadow-sm">
+                            shadow small: 
+                            <span>shadow-sm</span>
+                        </p>
+                        <p class="mb-4 px-2 border border-3 shadow">
+                            shadow regular:
+                            <span>shadow</span>
+                        </p>
+                        <p class="mb-4 px-  border border-3 shadow-lg">
+                            shadow big:
+                            <span>shadow-lg</span>
+                        </p>
+                        <p class="bg-ligh   border border-3 shadow-none">without shadow</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row fila">
+            <div class="col-6 bg-light">
+                <div class="bg-info text-wrap badge" 
+                style="width: 60px; height: 60px">
+                    Este texto debe ajustarse
+                </div>
+            </div>
+            <div class="col-6">
+                <span class="bg-success text-truncate d-inline-block" 
+                style="width: 60px; height: 60px">
+                    Este texto debe ajustarse
+                </span>
+            </div>
+        </div>
+
+        <div class="row fila text-white text-center justify-content-center">
+            <div class="col-3 bg-warning visible">
+                <p class="text-capitalize text-danger fw-bolder">visible</p>
+            </div>
+            <div class="col-3 bg-info invisible">
+                <p class="text-capitalize">invisible</p>
+            </div>
+            <div class="col-3 bg-danger">
+                <p class="text-capitalize fw-bolder">normal</p>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 fila m-0 lh-sm">
+            <h1>element alignment</h1>
+            <h2>Element inline</h2>
+            <p class="text-decoration-underline fs-1 m-1">alignment <span class="text-decoration-underline fs-6 align-baseline   ">baseline</span></p>
+            <p class="text-decoration-underline fs-1 m-1">alignment <span class="text-decoration-underline fs-6 align-top        ">top</span></p>
+            <p class="text-decoration-underline fs-1 m-1">alignment <span class="text-decoration-underline fs-6 align-middle     ">middle</span></p>
+            <p class="text-decoration-underline fs-1 m-1">alignment <span class="text-decoration-underline fs-6 align-bottom     ">bottom</span></p>
+            <p class="text-decoration-underline fs-1 m-1">alignment <span class="text-decoration-underline fs-6 align-text-top   ">text-top</span></p>
+            <p class="text-decoration-underline fs-1 m-1">alignment <span class="text-decoration-underline fs-6 align-text-bootom">text-bottom</span></p>
+        </div>
+
+        <div class="row row-cols-1 fila m-0">
+            <div class="col columna">
+                <h2 class="text-center">Cells</h2>
+                <table class="mb-5">
+                    <tbody>
+                        <tr>
+                            <td class="height align-baseline   ">align-baseline</td>
+                            <td class="height align-top        ">align-top</td>
+                            <td class="height align-middle     ">align-middle</td>
+                            <td class="height align-bottom     ">align-bottom</td>
+                            <td class="height align-text-top   ">align-text-top</td>
+                            <td class="height align-text-bootom">align-text-bottom</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row fila">
+            <article class="col columna">
+                <h1  class="col text-center">Flexbox</h1>
+                
+                <details class="col mx-0 mb-2">
+                    <summary class="list-inline text-capitalize fs-5 text-decoration-underline">
+                        Clases del elemento padre:
+                    </summary>
+                    <ul class="list-inline">
+                        <li>
+                            <details>
+                                <summary>d-flex</summary>
+                                <details>
+                                    <summary>d-pantalla-flex</summary>
+                                    <ul class="list-inline row row-cols-4">
+                                        <li>d-flex</li>
+                                        <li>d-xs-flex</li>
+                                        <li>d-sm-flex</li>
+                                        <li>d-md-flex</li>
+                                        <li>d-lg-flex</li>
+                                        <li>d-xl-flex</li>
+                                        <li>d-xxl-flex</li>
+                                    </ul>
+                                </details>
+                                
+                                <div class="d-flex flex-row flex-content bg-dark text-white text-center">
+                                    <div class="flex-item p-2 bg-info   ">1</div>
+                                    <div class="flex-item p-2 bg-warning">2</div>
+                                    <div class="flex-item p-2 bg-success">3</div>
+                                    <div class="flex-item p-2 bg-danger ">4</div>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>flex-pantalla-wrap</summary>
+                                <details>
+                                    <summary>Type</summary>
+                                    <ul class="list-inline row">
+                                        <li>flex-wrap</li>
+                                        <li>flex-nowrap</li>
+                                        <li>flex-wrap-reverse</li>
+                                    </ul>
+                                </details>
+                                
+                                <div class="d-flex flex-wrap flex-content bg-dark text-white text-center">
+                                    <div class="flex-item p-2 bg-info   ">1</div>
+                                    <div class="flex-item p-2 bg-warning">2</div>
+                                    <div class="flex-item p-2 bg-success">3</div>
+                                    <div class="flex-item p-2 bg-danger ">4</div>
+                                    <div class="flex-item p-2 bg-info   ">5</div>
+                                    <div class="flex-item p-2 bg-primary">6</div>
+                                    <div class="flex-item p-2 bg-success">7</div>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>justify-content-pantalla-evenly</summary>
+                                <details>
+                                    <summary>Type</summary>
+                                    <ul class="list-inline row">
+                                        <li>justify-content-start</li>
+                                        <li>justify-content-end</li>
+                                        <li>justify-content-center</li>
+                                        <li>justify-content-around</li>
+                                        <li>justify-content-between</li>
+                                        <li>justify-content-evenly</li>
+                                    </ul>
+                                </details>
+                                
+                                <div class="d-flex justify-content-evenly flex-wrap  border border-4 mb-2 flex-content bg-dark text-white text-center">
+                                    <div class="flex-item p-2 bg-info   ">1</div>
+                                    <div class="flex-item p-2 bg-warning">2</div>
+                                    <div class="flex-item p-2 bg-success">3</div>
+                                    <div class="flex-item p-2 bg-danger ">4</div>
+                                    <div class="flex-item p-2 bg-info   ">5</div>
+                                </div>
+
+                                <div class="d-flex justify-content-evenly flex-wrap flex-column border border-4 flex-content bg-dark text-white text-center">
+                                    <div class="flex-item p-2 bg-info   ">1</div>
+                                    <div class="flex-item p-2 bg-warning">2</div>
+                                    <div class="flex-item p-2 bg-success">3</div>
+                                    <div class="flex-item p-2 bg-danger ">4</div>
+                                    <div class="flex-item p-2 bg-info   ">5</div>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>align-items-pantalla-stretch</summary>
+                                <details>
+                                    <summary>Type</summary>
+                                    <ul class="list-inline row">
+                                        <li>align-items-start</li>
+                                        <li>align-items-end</li>
+                                        <li>align-items-center</li>
+                                        <li>align-items-baseline</li>
+                                        <li>align-items-stretch (Predeterminate)</li>
+                                    </ul>
+                                </details>
+                                
+                                <div class="d-flex align-items-baseline border border-4 mb-2 flex-content bg-dark text-white text-center">
+                                    <div class="w-80 p-2 bg-info    fs-5">1</div>
+                                    <div class="w-80 p-2 bg-warning fs-2">2</div>
+                                    <div class="w-80 p-2 bg-success fs-4">3</div>
+                                    <div class="w-80 p-2 bg-danger  fs-3">4</div>
+                                    <div class="w-80 p-2 bg-info    fs-1">5</div>
+                                </div>
+
+                                <div class="d-flex align-items-stretch flex-column border border-4 mb-2 flex-content bg-dark text-white text-center">
+                                    <div class=" p-2 bg-info   ">1</div>
+                                    <div class=" p-2 bg-warning">2</div>
+                                    <div class=" p-2 bg-success">3</div>
+                                    <div class=" p-2 bg-danger ">4</div>
+                                    <div class=" p-2 bg-info   ">5</div>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>align-content-pantalla-start</summary>
+                                <details>
+                                    <summary>Type</summary>
+                                    <ul class="list-inline row">
+                                        <li>align-content-start</li>
+                                        <li>align-content-end</li>
+                                        <li>align-content-center</li>
+                                        <li>align-content-between</li>
+                                        <li>align-content-around</li>
+                                        <li>align-content-stretch (Predeterminate)</li>
+                                    </ul>
+                                </details>
+                                
+                                <div class="d-flex flex-wrap align-content-start
+                                border border-4 mb-2 flex-content bg-dark text-white text-center">
+                                    <div class="flex-item p-2 bg-info   ">1</div>
+                                    <div class="flex-item p-2 bg-warning">2</div>
+                                    <div class="flex-item p-2 bg-success">3</div>
+                                    <div class="flex-item p-2 bg-danger ">4</div>
+                                    <div class="flex-item p-2 bg-info   ">5</div>
+                                    <div class="flex-item p-2 bg-success">6</div>
+                                    <div class="flex-item p-2 bg-danger ">7</div>
+                                    <div class="flex-item p-2 bg-info   ">8</div>
+                                </div>
+
+                                <div class="d-flex flex-column align-content-center
+                                flex-wrap border border-4 mb-2 flex-content bg-dark text-white text-center">
+                                    <div class="flex-item p-2 bg-info     ">1</div>
+                                    <div class="flex-item p-2 bg-warning  ">2</div>
+                                    <div class="flex-item p-2 bg-success  ">3</div>
+                                    <div class="flex-item p-2 bg-danger   ">4</div>
+                                    <div class="flex-item p-2 bg-info     ">5</div>
+                                    <div class="flex-item p-2 bg-success  ">6</div>
+                                    <div class="flex-item p-2 bg-danger   ">7</div>
+                                    <div class="flex-item p-2 bg-secondary">8</div>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                </details>
+
+                <details class="col mx-0 mb-2">
+                    <summary class="list-inline text-capitalize fs-5 text-decoration-underline">
+                        Clases del elemento hijo:
+                    </summary>
+                    <ul class="list-inline">
+                        <li>
+                            <details>
+                                <summary>order-pantalla-1</summary>
+                                <details>
+                                    <summary>order-pantalla-valor</summary>
+                                    <ul class="list-inline row">
+                                        <li>order-1</li>
+                                        <li>order-2</li>
+                                        <li>order-...</li>
+                                        <li>order-12</li>
+                                    </ul>
+                                </details>
+                                
+                                <div class="d-flex flex-content bg-dark text-white text-center">
+                                    <div class="flex-item order-1 p-2 bg-info   ">1</div>
+                                    <div class="flex-item p-2 bg-warning">2</div>
+                                    <div class="flex-item p-2 bg-success">3</div>
+                                    <div class="flex-item p-2 bg-danger ">4</div>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>flex-pantalla-grow-valor</summary>
+                                <details>
+                                    <summary>Type</summary>
+                                    <ul class="list-inline row">
+                                        <li>flex-grow-0 (No crezca)</li>
+                                        <li>flex-grow-1 (Si crezca)</li>
+                                    </ul>
+                                </details>
+                                
+                                <div class="d-flex flex-wrap flex-content bg-dark text-white text-center mb-3">
+                                    <div class="flex-item flex-grow-1 p-2 bg-info   ">1: flex-grow-1</div>
+                                    <div class="flex-item p-2 bg-warning text-primary fw-bolder">2</div>
+                                    <div class="flex-item flex-grow-1 p-2 bg-success">3: flex-grow-1</div>
+                                    <div class="flex-item p-2 bg-danger ">4</div>
+                                </div>
+
+                                <div class="d-flex flex-wrap
+                                border border-3 flex-content bg-dark text-white text-center">
+                                    <div class="flex-item flex-grow-1 p-2 bg-info">1</div>
+                                    <div class="flex-item flex-grow-1 p-2 bg-warning text-primary fw-bolder">2</div>
+                                    <div class="flex-item flex-grow-1 p-2 bg-success">3</div>
+                                    <div class="flex-item flex-grow-1 p-2 bg-danger ">4</div>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>flex-pantalla-shrink-valor</summary>
+                                <details>
+                                    <summary>Type</summary>
+                                    <ul class="list-inline row">
+                                        <li>flex-pantalla-shrink-0</li>
+                                        <li>flex-pantalla-shrink-1</li>
+                                    </ul>
+                                </details>
+                                
+                                <div class="d-flex
+                                border border-4 mb-2 flex-content bg-dark text-white text-center">
+                                    <div class="flex-item flex-shrink-0 p-2 bg-info   ">flex-shrink-0</div>
+                                    <div class="flex-item p-2 bg-primary">2</div>
+                                    <div class="flex-item p-2 bg-success">3</div>
+                                    <div class="flex-item p-2 bg-info   ">1</div>
+                                    <div class="flex-item p-2 bg-primary">2</div>
+                                    <div class="flex-item p-2 bg-success">3</div>
+                                    <div class="flex-item p-2 bg-info   ">1</div>
+                                    <div class="flex-item p-2 bg-primary">2</div>
+                                    <div class="flex-item flex-shrink-0 p-2 bg-success">flex-shrink-0</div>
+                                    <div class="flex-item p-2 bg-info   ">1</div>
+                                    <div class="flex-item p-2 bg-primary">2</div>
+                                    <div class="flex-item p-2 bg-success">3</div>
+                                </div>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>align-self-pantalla-valor</summary>
+                                <details>
+                                    <summary>Type</summary>
+                                    <ul class="list-inline row">
+                                        <li>align-self-start</li>
+                                        <li>align-self-end</li>
+                                        <li>align-self-center</li>
+                                        <li>align-self-baseline</li>
+                                        <li>align-self-stretch (Predeterminate)</li>
+                                    </ul>
+                                </details>
+                                
+                                <div class="d-flex justify-content-between
+                                mb-2 flex-content bg-dark text-white text-center">
+                                    <div class="flex-item align-self-start p-2 bg-info fs-5">1</div>
+                                    <div class="flex-item align-self-center p-2 bg-warning fs-2">2</div>
+                                    <div class="flex-item align-self-end p-2 bg-success fs-4">3</div>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                </details>
+            </article>
+        </div>
+
+        <div class="row fila m-0">
+            <section class="col columna">
+                <h1 class="col text-center">Tipografía</h1>
+
+                <details class="col mx-0 mb-2">
+                    <summary class="list-inline text-capitalize fs-5 text-decoration-underline">
+                        Encabezados:
+                    </summary>
+                    <ul class="list-inline">
+                        <li class="ms-4">
+                            <details>
+                                <summary>h1 ... h6</summary>
+                                
+                                <div class=" flex-content bg-dark text-white text-center">
+                                    <h1 class="bg-info      h1">H1</h1>
+                                    <h2 class="bg-warning   h2">H2</h2>
+                                    <h3 class="bg-success   h3">H3</h3>
+                                    <h4 class="bg-danger    h4">H4</h4>
+                                    <h5 class="bg-primary   h5">H5</h5>
+                                    <h6 class="bg-secondary h6">H6</h6>
+                                    <p  class="bg-danger    h3">
+                                        párrafo con clase encabezado h3
+                                    </p>
+                                </div>
+                            </details>
+                        </li>
+                        <li class="ms-4">
+                            <details>
+                                <summary>Elementos destacados</summary>
+                                <details>
+                                    <summary>Header: display-valor</summary>
+                                    <ul class="list-inline row">
+                                        <li>1 al 4</li>
+                                        <li>example: display-2</li>
+                                    </ul>
+                                </details>
+                                <p>Párrafos: lead</p>
+                                
+                                <div class=" flex-content bg-dark text-white text-center">
+                                    <h1 class="display-0 bg-info    h1">H1</h1>
+                                    <h2 class="display-0 bg-warning h2">H2</h2>
+                                    <h3 class="display-4 bg-success h3">H3: display-4</h3>
+                                    <h4 class="display-0 bg-danger  h4">H4</h4>
+                                    <p  class="bg-primary h3">paragraph</p>
+                                    <p  class="lead bg-primary h3">paragraph: lead</p>
+                                </div>
+                            </details>
+                        </li>
+                        <li class="ms-4">
+                            <details>
+                                <summary>text labels</summary>
+                                
+                                <div class="d-flex flex-column border border-4 mb-2 w-100 bg-secondary text-white text-center">
+                                    <mark  >   &lt;mark&gt;  </mark>
+                                    <del   >    &lt;del&gt;  </del>
+                                    <s     >      &lt;s&gt;  </s>
+                                    <u     >      &lt;u&gt;  </u>
+                                    <small >  &lt;small&gt;  </small>
+                                    <strong> &lt;strong&gt;  </strong>
+                                    <em    >     &lt;em&gt;  </em>
+                                    <p class="m-0 p-0"> 
+                                        class="initialism" 
+                                        <abbr class="initialism" title="information text">
+                                        &lt;abbr&gt; 
+                                    </abbr>
+                                    </p>
+                                    <kbd   >    &lt;kbd&gt;  </kbd>
+                                    <var   >    &lt;var&gt;  </var>
+                                    <pre class="m-0 p-0">
+                                        <code>
+                                            &lt;pre&gt;
+                                                &lt;code&gt;
+                                                    if(a) {
+                                                        console.log("Estoy implimiendo la etiqueta &lt;pre&gt; en lugar de &lt;p&gt;");
+                                                    }
+                                                &lt;/code&gt;
+                                            &lt;/pre&gt;
+                                        </code>
+                                    </pre>
+                                </div>
+                            </details>
+                        </li>
+                        <li class="ms-4">
+                            <details>
+                                <summary>blockquote</summary>
+                                <details>
+                                    <summary>Type</summary>
+                                    <ul class="list-inline row">
+                                        <li class="border border-4 w-100 p-0 ms-4 mb-2">add Author: <br>
+                                            &lt;cite class="blockquote-footer"&gt; <br>
+                                            <cite class="m-0 ms-5 blockquote-footer">
+                                                Name of author
+                                            </cite> <br>
+                                            &lt;/cite&gt;
+                                        </li>
+                                    </ul>
+                                </details>
+                                
+                                <div class="mb-2 flex-content bg-dark text-white text-center">
+                                    <blockquote class="blockquote">
+                                        <p class="text-start">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, odit veniam doloremque commodi id laborum esse amet minus dolores enim soluta molestias illo distinctio ad provident deleniti velit officia fuga!
+                                        </p>
+                                        <footer class="blockquote-footer">
+                                            <cite>Name of Author</cite>
+                                        </footer>
+                                    </blockquote>
+                                </div>
+                            </details>
+                        </li>
+                        <li class="ms-4">
+                            <details>
+                                <summary>Listas</summary>
+                                <details class=" ms-4">
+                                    <summary>Type</summary>
+                                    <ul class="list-inline row ms-4">
+                                        <li class="list-inline-item">
+                                            <details>
+                                                <summary>
+                                                    Eliminar margin end viñetas</summary>
+                                                <ul class="list-inline row ms-4">
+                                                    <li>
+                                                        list-unstyled
+                                                    </li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                        <li>
+                                            <details>
+                                                <summary> Listas en linea </summary>
+                                                <ul class="list-inline row ms-4">
+                                                    <li>list-inline</li>
+                                                    <li>list-inline-item</li>
+                                                </ul>
+                                            </details>
+                                        </li>
+                                    </ul>
+                                </details>
+                                
+                                <div class="mb-0 w-100 d-flex flex-column flex-wrap bg-secondary text-white text-center">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item border border-3">
+                                        list-inline-item
+                                    </li>
+                                    <li class="list-inline-item border border-3">
+                                        list-inline-item
+                                    </li>
+                                    <li class="list-inline-item border border-3">
+                                        list-inline-item
+                                    </li>
+                                    <li class="list-inline-item border border-3">
+                                        list-inline-item
+                                    </li>
+                                </ul>
+                                </div>
+                            </details>
+                        </li>
+                    </ul>
+                </details>
+
+                <!-- <details class="col mx-0 mb-2"> -->
+                    <summary class="list-inline text-capitalize fs-5 text-decoration-underline">
+                        Imagenes:
+                    </summary>
+                    <ul class="list-inline">
+                        <li class="ms-4">
+                            <!-- <details> -->
+                                <summary>img responsive</summary>
+                                <p class="ms-4 m-0">img-fluid</p>
+                                
+                                <article class="row m-0 p-0 d-flex flex-column align-items-center gap-3 bg-info">
+                                    <div class="col border-danger m-0 p-0">
+                                        <div class="row m-0 p-0 text-center">
+                                            <div class="col m-0 p-0 border border-3">1</div>
+                                            <div class="col m-0 p-0 border border-3">2</div>
+                                            <div class="col m-0 p-0 border border-3">3</div>
+                                            <div class="col m-0 p-0 border border-3">4</div>
+                                            <div class="col m-0 p-0 border border-3">5</div>
+                                            <div class="col m-0 p-0 border border-3">6</div>
+                                            <div class="col m-0 p-0 border border-3">7</div>
+                                            <div class="col m-0 p-0 border border-3">8</div>
+                                            <div class="col m-0 p-0 border border-3">9</div>
+                                            <div class="col m-0 p-0 border border-3">10</div>
+                                            <div class="col m-0 p-0 border border-3">11</div>
+                                            <div class="col m-0 p-0 border border-3">12</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex justify-content-around align-items-ceeenter p-3 h-100 border border-3">
+                                        <article class=" shadow-lg flex-item-img border border-3 bg-primary">
+                                            <img src="./assets/images/img-login.jpg" class="img-fluid">
+                                        </article>
+
+                                        <article class=" shadow-lg flex-item-img bg-primary">
+                                            <img src="./assets/images/img-login.jpg" class="img-fluid img-thumbnail">
+                                        </article>
+                                    </div>
+                                </article>
+
+                            </details>
+                        </li>
+                        <li class="ms-4">
+                            <details>
+                                <summary>img con border</summary>
+                                <p class="ms-4">img-thumbnail</p>
+                            </details>
+                        </li>
+                        <li class="ms-4">
+                            <details>
+                                <summary>Figure & Figcaption</summary>
+                                <p class="ms-4">img-fluid</p>
+                            </details>
+                        </li>
+                    </ul>
+                </details>
+            </section>
+        </div>
+    
+    </main>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
