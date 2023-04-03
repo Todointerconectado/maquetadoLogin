@@ -22,14 +22,15 @@
     transition: opacity ease 300ms;
 }
 .bg-btn:hover {
-    opacity: .8;
+    opacity: .7;
 }
 
 .text-bg-btn {
     color: var(--btn-color);
-    transition: opacity ease 300ms;
+    transition: opacity ease 300ms, text-decoration ease 300ms;
 }
 .text-bg-btn:hover {
+    text-decoration: none;
     opacity: .8;
 }
 
